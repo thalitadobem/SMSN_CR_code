@@ -183,7 +183,7 @@ SAEM_EST <- function(y,X,cc,cens,LS=NULL,precisao=0.0001,MaxIter=200, M=20, pc=0
     }
     
 
-    ####### MATRIZ DE INFORMAÇÃO EMPÍRICA
+    ####### MATRIZ DE INFORMAÃ‡ÃƒO EMPÃRICA
     sbeta <- c()
     ssigma2 <- c()
     slambda <- c()
