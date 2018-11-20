@@ -9,7 +9,7 @@
 ## SAEM - SMSN-CR ##
 ## -------------- ##
 
-SAEM_EST <- function(y,X,cc,cens,LS=NULL,precisao=0.0001,MaxIter=200, M=20, pc=0.30, dist="SN",show.convergence="TRUE")
+SMSNCR_EST <- function(y,X,cc,cens,LS=NULL,precisao=0.0001,MaxIter=200, M=20, pc=0.30, dist="SN",show.convergence="TRUE")
 { 
   
   # y : variable response
