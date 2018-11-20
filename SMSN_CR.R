@@ -283,6 +283,18 @@ SMSNCR_EST <- function(y,X,cc,cens,LS=NULL,precisao=0.0001,MaxIter=200, M=20, pc
   
   close(pb)
   
+  cat('-----------\n')
+  cat('Estimates\n')
+  cat('-----------\n')
+  cat('\n')
+  print(round(teta.out[,1],4))
+  cat('\n')
+  cat('-----------\n')
+  cat('Standard error\n')
+  cat('-----------\n')
+  cat('\n')
+  print(round(se,4))
+  
   end.time <- Sys.time()
   time.taken <- end.time - start.time
   
